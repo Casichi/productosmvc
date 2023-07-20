@@ -8,10 +8,10 @@
         <version>3.1.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.casichi</groupId>
-    <artifactId>productos</artifactId>
+    <groupId>com.casichi.productos</groupId>
+    <artifactId>servicio-productos</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>productos</name>
+    <name>servicios-productos</name>
     <description>productos</description>
     <properties>
         <java.version>17</java.version>
@@ -41,12 +41,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.28</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 
